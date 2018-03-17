@@ -1,3 +1,19 @@
+Motivation
+===============
+I modified the code of [Leaflet.D3SvgOverlay](https://github.com/teralytics/Leaflet.D3SvgOverlay) for my project, which uses React, Webpack. The original version is not compatible with them (I can't directly `import` them), so I made some modifications to it with a geek's help. 
+
+I remove those version stuff, and `if` statements like <leaflet 0.7. Also I replace the D3 with v4 style.
+
+The new code is [D3SvgOverlay.js](https://github.com/akiori/Leaflet.D3SvgOverlay/blob/master/D3SvgOverlay.js).
+
+Please point out any mistakes bugs or issues, I'm still a code newbie :).
+
+My way of use this
+===============
+Before using, you need to npm install D3 and Leaflet. 
+ 
+Following is the original README by the author of Leaflet.D3SvgOverlay
+
 Leaflet.D3SvgOverlay
 ===============
 
